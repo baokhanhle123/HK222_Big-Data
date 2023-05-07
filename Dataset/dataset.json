@@ -1,100 +1,1402 @@
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 3.0315347663671397, 'Velocity': 7.8483875321215, 'Pressure': 6.489858174442222, 'pH': 7.190744170643159, 'Temperature': 18.659900855794653, 'Turbidity': 0.8453018690222349, 'Pollution level': 6.4800158536046855}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 3.104271877438502, 'Velocity': 7.952737701964535, 'Pressure': 6.079118581047314, 'pH': 7.020595555604262, 'Temperature': 20.113815954457248, 'Turbidity': 0.7907853779861342, 'Pollution level': 6.372460625497146}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 3.1744358581301424, 'Velocity': 7.436027547827921, 'Pressure': 5.504275588069625, 'pH': 7.082625680633865, 'Temperature': 21.289498328218862, 'Turbidity': 0.7579847635758373, 'Pollution level': 6.089902238634225}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 3.2400372764836627, 'Velocity': 7.463590598156074, 'Pressure': 5.600746435828175, 'pH': 7.136517088653806, 'Temperature': 21.726100691648938, 'Turbidity': 0.7638340224502479, 'Pollution level': 5.559642333853631}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 3.312995631523361, 'Velocity': 7.581400979172096, 'Pressure': 5.598044365376658, 'pH': 7.206618165512089, 'Temperature': 23.686643101536824, 'Turbidity': 0.7687297001612277, 'Pollution level': 5.270935819804664}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 3.384523609220113, 'Velocity': 7.769760357533996, 'Pressure': 5.338674898496475, 'pH': 6.5895705597699274, 'Temperature': 23.506177551490058, 'Turbidity': 0.7646653568543923, 'Pollution level': 5.636031041008367}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 3.4484471214766077, 'Velocity': 7.305344643574372, 'Pressure': 5.41692716855564, 'pH': 6.635972123058767, 'Temperature': 25.17177406294254, 'Turbidity': 0.8141530013823821, 'Pollution level': 5.325516425119458}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 3.515085589266331, 'Velocity': 7.7327054264722115, 'Pressure': 5.91903635870402, 'pH': 6.3546577087976095, 'Temperature': 22.866380307776623, 'Turbidity': 0.7601255409077616, 'Pollution level': 4.806393098504325}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 3.581654451731868, 'Velocity': 8.453617682594375, 'Pressure': 5.327883863146988, 'pH': 6.299568613770275, 'Temperature': 24.233267395988083, 'Turbidity': 0.7176372432461652, 'Pollution level': 4.802523169649168}}
-{'SensorId': 1, 'HomeId': 1, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 3.65161010849687, 'Velocity': 8.321240373754183, 'Pressure': 5.228174625827182, 'pH': 5.7390136072321845, 'Temperature': 22.873120097762104, 'Turbidity': 0.6993327885425175, 'Pollution level': 4.418580634080263}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 22.75791467214658, 'Velocity': 3.1354906238012155, 'Pressure': 2.91416635026422, 'pH': 8.463560918947248, 'Temperature': 11.286355851289922, 'Turbidity': 0.19562612131927576, 'Pollution level': 11.920505540142603}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 22.824204665634262, 'Velocity': 2.8600493238709848, 'Pressure': 2.9864017199126214, 'pH': 7.77729004286681, 'Temperature': 10.600594986322234, 'Turbidity': 0.1770154719389853, 'Pollution level': 12.745686344773695}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 22.891724971437657, 'Velocity': 2.90088635434233, 'Pressure': 2.7987312217611207, 'pH': 8.271105154451918, 'Temperature': 10.427340439234325, 'Turbidity': 0.17659408134019675, 'Pollution level': 12.535277691283655}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 22.96079514823361, 'Velocity': 2.9698976198975515, 'Pressure': 2.960651608329254, 'pH': 8.62672972764398, 'Temperature': 10.06049217276719, 'Turbidity': 0.16591783850108943, 'Pollution level': 12.818385706137542}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 23.022937292043586, 'Velocity': 2.854072996485272, 'Pressure': 2.803754231554281, 'pH': 7.786637486997394, 'Temperature': 9.600283293440945, 'Turbidity': 0.15733377698930917, 'Pollution level': 12.39120809252965}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 23.084000896611165, 'Velocity': 2.5833438141877183, 'Pressure': 2.6947291960493156, 'pH': 7.866121561982961, 'Temperature': 10.249293041605636, 'Turbidity': 0.1676010971798383, 'Pollution level': 11.935123430817422}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 23.15607554879354, 'Velocity': 2.501384608426216, 'Pressure': 2.8756501120601397, 'pH': 7.754202359250207, 'Temperature': 9.373938141974193, 'Turbidity': 0.15531682134710537, 'Pollution level': 11.750237869160626}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 23.226568082125276, 'Velocity': 2.2620870325449087, 'Pressure': 2.958877810557215, 'pH': 7.94320752088027, 'Temperature': 9.081755175410729, 'Turbidity': 0.16618731263748, 'Pollution level': 11.034516494877327}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 23.298105450866366, 'Velocity': 2.10912524624673, 'Pressure': 3.2336128615111, 'pH': 8.505570966377148, 'Temperature': 8.910247981489196, 'Turbidity': 0.1618484083405902, 'Pollution level': 10.781898039810999}}
-{'SensorId': 2, 'HomeId': 2, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 23.361221958913514, 'Velocity': 2.2189389548645324, 'Pressure': 3.4819334203928647, 'pH': 7.8351061853850466, 'Temperature': 8.248472425240596, 'Turbidity': 0.1610365526576951, 'Pollution level': 9.875818579147085}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 9.049073205330322, 'Velocity': 7.6541578086071125, 'Pressure': 4.677807120457511, 'pH': 6.682269235123185, 'Temperature': 26.086368658915017, 'Turbidity': 0.46078159291353027, 'Pollution level': 3.0782530156659984}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 9.11522807341381, 'Velocity': 7.826947357311731, 'Pressure': 4.85036343001478, 'pH': 6.279470882871828, 'Temperature': 25.90345941982036, 'Turbidity': 0.4520428571343153, 'Pollution level': 3.3844470346116924}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 9.177373146531663, 'Velocity': 8.257053434454443, 'Pressure': 4.3734324792444905, 'pH': 6.776770881567606, 'Temperature': 25.299726417458977, 'Turbidity': 0.4782012722490813, 'Pollution level': 3.53255104076599}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 9.241499487343816, 'Velocity': 8.052970402465, 'Pressure': 4.340126359559106, 'pH': 6.575376928639291, 'Temperature': 26.43257329194853, 'Turbidity': 0.47793822970568134, 'Pollution level': 3.3801606569102125}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 9.303249034043107, 'Velocity': 8.254048973849537, 'Pressure': 4.066470140949221, 'pH': 6.463211506653413, 'Temperature': 27.42988008707531, 'Turbidity': 0.4513306539560485, 'Pollution level': 3.368166160139546}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 9.366521552944127, 'Velocity': 8.184478848875239, 'Pressure': 4.346523894567105, 'pH': 6.13287929266949, 'Temperature': 29.182938485907712, 'Turbidity': 0.45482584399365805, 'Pollution level': 3.312826827332396}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 9.429941405173658, 'Velocity': 8.244735266224259, 'Pressure': 4.407574278633472, 'pH': 6.311410181679767, 'Temperature': 29.35032304495773, 'Turbidity': 0.4745514905700362, 'Pollution level': 3.1802567727814672}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 9.494681545065692, 'Velocity': 8.007625133462916, 'Pressure': 4.575994941730466, 'pH': 6.76331666637209, 'Temperature': 28.889647532246304, 'Turbidity': 0.4434737714791138, 'Pollution level': 3.0086736020819096}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 9.568887553972386, 'Velocity': 8.617319107374362, 'Pressure': 4.250564954477189, 'pH': 7.3099067815108665, 'Temperature': 30.228387008775584, 'Turbidity': 0.4172287707001679, 'Pollution level': 2.8391808742937332}}
-{'SensorId': 3, 'HomeId': 3, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 9.6323314762255, 'Velocity': 8.719706960646393, 'Pressure': 3.94359726143458, 'pH': 6.869376346122235, 'Temperature': 30.480049820442495, 'Turbidity': 0.45166361323137605, 'Pollution level': 2.624270514697459}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 52.185443282737296, 'Velocity': 4.661706964739453, 'Pressure': 3.7067697729945235, 'pH': 8.025979144308563, 'Temperature': 30.286017286888605, 'Turbidity': 0.7184874846352333, 'Pollution level': 8.369165638532774}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 52.24873220052062, 'Velocity': 4.196641471488699, 'Pressure': 3.7562970049590727, 'pH': 7.742303369314451, 'Temperature': 31.17563336365775, 'Turbidity': 0.7808014926813499, 'Pollution level': 7.879627652567753}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 52.311325828660394, 'Velocity': 4.23981959221387, 'Pressure': 3.7256117139084375, 'pH': 7.233730826118139, 'Temperature': 33.164593448377744, 'Turbidity': 0.8065519643626474, 'Pollution level': 8.09931587283882}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 52.374953837336825, 'Velocity': 4.538370251513782, 'Pressure': 3.9693204624793075, 'pH': 7.600092432546403, 'Temperature': 35.0422172464737, 'Turbidity': 0.7386881665654975, 'Pollution level': 8.61238124064888}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 52.447001174570666, 'Velocity': 4.491603075047241, 'Pressure': 3.7529836826660046, 'pH': 7.170192170880141, 'Temperature': 38.540268869778494, 'Turbidity': 0.7786671941213037, 'Pollution level': 9.013299450675174}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 52.51070564856662, 'Velocity': 4.655528781421287, 'Pressure': 3.512698943468962, 'pH': 7.400281613937563, 'Temperature': 37.71263321269083, 'Turbidity': 0.7802956905522604, 'Pollution level': 8.962631196303025}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 52.57219352925963, 'Velocity': 4.411668326957725, 'Pressure': 3.8542416925619016, 'pH': 7.23364700600391, 'Temperature': 37.43347629136492, 'Turbidity': 0.8325097960501213, 'Pollution level': 8.305520670174738}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 52.63534718719498, 'Velocity': 4.020907306337258, 'Pressure': 4.101683406308763, 'pH': 7.055419651169522, 'Temperature': 38.753827115729806, 'Turbidity': 0.9081908597321277, 'Pollution level': 8.463679463465969}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 52.69973953461731, 'Velocity': 4.046922509831242, 'Pressure': 3.8156521950960083, 'pH': 7.118544279346389, 'Temperature': 38.00159241288286, 'Turbidity': 0.9107061341994362, 'Pollution level': 7.680436391006424}}
-{'SensorId': 4, 'HomeId': 4, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 52.7707035236777, 'Velocity': 3.908389607565664, 'Pressure': 3.958456868467331, 'pH': 7.537286452599572, 'Temperature': 34.9516153810202, 'Turbidity': 0.9275596891809081, 'Pollution level': 7.920619661976641}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 31.457086233131875, 'Velocity': 7.83754253061007, 'Pressure': 5.472029236500674, 'pH': 6.699484944457513, 'Temperature': 15.347618749458249, 'Turbidity': 0.3483512916442679, 'Pollution level': 1.2847414154933148}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 31.51956856932963, 'Velocity': 7.549003980836859, 'Pressure': 5.290379765244741, 'pH': 6.258212326117881, 'Temperature': 14.03084178626123, 'Turbidity': 0.3167135948327873, 'Pollution level': 1.3908663501244198}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 31.584625181526963, 'Velocity': 7.673985456832906, 'Pressure': 5.032257874597748, 'pH': 6.30968526420699, 'Temperature': 14.638005954734291, 'Turbidity': 0.2923879804724518, 'Pollution level': 1.2747339591689222}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 31.64939190889881, 'Velocity': 7.583441799108353, 'Pressure': 4.857940648303297, 'pH': 5.794321828677723, 'Temperature': 13.297957203642042, 'Turbidity': 0.3015718753534292, 'Pollution level': 1.2526478145682172}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 31.723771583442893, 'Velocity': 7.478743739729519, 'Pressure': 5.327495045140991, 'pH': 5.4228702370480635, 'Temperature': 13.039872524885325, 'Turbidity': 0.2967476768571166, 'Pollution level': 1.2095543293156419}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 31.784843735026026, 'Velocity': 6.8807670089323265, 'Pressure': 5.714470390964331, 'pH': 5.907686490567013, 'Temperature': 12.983032663680634, 'Turbidity': 0.2799507724775832, 'Pollution level': 1.2267592783958003}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 31.85908144442815, 'Velocity': 7.132616394998596, 'Pressure': 5.641633651217462, 'pH': 6.146367254766867, 'Temperature': 12.220455289514268, 'Turbidity': 0.29910150689600645, 'Pollution level': 1.1112845074626103}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 31.927986556999375, 'Velocity': 7.371299972019426, 'Pressure': 5.729960055081064, 'pH': 5.627135132577402, 'Temperature': 12.43666148686865, 'Turbidity': 0.2702445149815399, 'Pollution level': 1.0492646084601636}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 32.000944120898716, 'Velocity': 7.177529229034484, 'Pressure': 5.706411725063779, 'pH': 5.839990935536484, 'Temperature': 11.926216072090892, 'Turbidity': 0.24800718698525517, 'Pollution level': 1.1509201082791032}}
-{'SensorId': 5, 'HomeId': 5, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 32.075403761274714, 'Velocity': 7.32021857544337, 'Pressure': 6.2194249727808035, 'pH': 5.286298374302505, 'Temperature': 11.975366403020958, 'Turbidity': 0.23315741931562092, 'Pollution level': 1.1246641063490204}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 37.92556906614602, 'Velocity': 1.6886115213567834, 'Pressure': 13.804469288282409, 'pH': 6.392870490771926, 'Temperature': 23.680850030692618, 'Turbidity': 0.1351992161855589, 'Pollution level': 6.756943415948851}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 37.99272926145764, 'Velocity': 1.8250587678232946, 'Pressure': 14.816667063299269, 'pH': 5.900188577530173, 'Temperature': 21.896694514611305, 'Turbidity': 0.13370851407165038, 'Pollution level': 6.246802029655434}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 38.06024251189856, 'Velocity': 1.7053523896713576, 'Pressure': 14.408410181254716, 'pH': 6.03749916084996, 'Temperature': 21.140891399427677, 'Turbidity': 0.14540514536845242, 'Pollution level': 5.629771749112085}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 38.127232738322554, 'Velocity': 1.8273959042035348, 'Pressure': 13.748960488140327, 'pH': 6.4318385507443505, 'Temperature': 22.824773717493123, 'Turbidity': 0.1511692024332857, 'Pollution level': 5.488081061858494}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 38.19834194496664, 'Velocity': 1.6733469899932198, 'Pressure': 14.02173232429519, 'pH': 6.778779731287946, 'Temperature': 21.187506659492108, 'Turbidity': 0.15277398273369597, 'Pollution level': 5.940751463523158}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 38.26735250488066, 'Velocity': 1.7388689366108296, 'Pressure': 13.862788546232563, 'pH': 6.460689251070875, 'Temperature': 22.86810045052501, 'Turbidity': 0.1509398645630841, 'Pollution level': 6.383702005550717}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 38.33497380603919, 'Velocity': 1.8031515975909245, 'Pressure': 13.253221346003205, 'pH': 6.581036895092925, 'Temperature': 24.612769966737478, 'Turbidity': 0.13923342332054664, 'Pollution level': 6.538401052548464}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 38.39822390489355, 'Velocity': 1.7897237536298014, 'Pressure': 11.939125414046119, 'pH': 6.380972420568292, 'Temperature': 25.089757261181322, 'Turbidity': 0.13044776239848674, 'Pollution level': 7.094658912156191}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 38.46304672021231, 'Velocity': 1.8810210404259453, 'Pressure': 12.481460022221459, 'pH': 6.2069915472905315, 'Temperature': 26.26290415876219, 'Turbidity': 0.13213200400533723, 'Pollution level': 7.288306396543465}}
-{'SensorId': 6, 'HomeId': 6, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 38.53283853419844, 'Velocity': 1.7451879615803432, 'Pressure': 13.234374543024103, 'pH': 5.70169307877539, 'Temperature': 27.435181115349568, 'Turbidity': 0.13615835330656886, 'Pollution level': 6.870931229165822}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 47.49164949078298, 'Velocity': 4.534354211893334, 'Pressure': 9.534174664406862, 'pH': 8.402200861709847, 'Temperature': 41.58271590896768, 'Turbidity': 0.514742840437527, 'Pollution level': 9.238799321672916}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 47.5636528178983, 'Velocity': 4.3248707063265215, 'Pressure': 9.196683008118592, 'pH': 9.110100048632738, 'Temperature': 39.566442829590926, 'Turbidity': 0.5601724545076091, 'Pollution level': 9.577536646397318}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 47.63083011023846, 'Velocity': 4.338807975538674, 'Pressure': 9.099530355953258, 'pH': 8.738669729575564, 'Temperature': 41.91244317655904, 'Turbidity': 0.5539987355827664, 'Pollution level': 10.303235290293669}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 47.69477121758082, 'Velocity': 4.251407721868107, 'Pressure': 9.557302096282097, 'pH': 9.19576855359676, 'Temperature': 41.717144917575844, 'Turbidity': 0.5954638930535374, 'Pollution level': 9.736315752110226}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 47.76911778834176, 'Velocity': 4.470290316862302, 'Pressure': 10.002151765868465, 'pH': 9.411699219147476, 'Temperature': 42.4025283988764, 'Turbidity': 0.5709242155135655, 'Pollution level': 8.871189467008932}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 47.8400173192599, 'Velocity': 4.053866704834148, 'Pressure': 9.980717690757077, 'pH': 9.564540540717683, 'Temperature': 42.766722295342525, 'Turbidity': 0.5672575799693373, 'Pollution level': 8.05543497586437}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 47.90552075441266, 'Velocity': 3.7086292265014595, 'Pressure': 10.16468190713445, 'pH': 8.807089079848732, 'Temperature': 42.99337041742667, 'Turbidity': 0.536101647955797, 'Pollution level': 8.062473749119256}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 47.972236692927225, 'Velocity': 3.57406955134028, 'Pressure': 9.590962571971058, 'pH': 8.278424111967741, 'Temperature': 41.87500044027723, 'Turbidity': 0.5370734912431415, 'Pollution level': 8.848335658596362}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 48.0458926045641, 'Velocity': 3.7241323803741695, 'Pressure': 9.055263523235487, 'pH': 8.288945329969359, 'Temperature': 43.57600647809079, 'Turbidity': 0.5481639094402311, 'Pollution level': 9.421457690762962}}
-{'SensorId': 7, 'HomeId': 7, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 48.11561276502747, 'Velocity': 3.6440742000723025, 'Pressure': 8.764966637658919, 'pH': 8.194659913249376, 'Temperature': 47.1605327724554, 'Turbidity': 0.5496761410693699, 'Pollution level': 9.285940272297761}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 6.761640312507399, 'Velocity': 8.143000882945143, 'Pressure': 3.4253161559661427, 'pH': 7.016903458001298, 'Temperature': 31.896076781780323, 'Turbidity': 0.806444726616503, 'Pollution level': 4.142838848352242}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 6.82988255758243, 'Velocity': 7.984155959986271, 'Pressure': 3.493683984412031, 'pH': 6.709842223589447, 'Temperature': 32.42933999606396, 'Turbidity': 0.8509791230414934, 'Pollution level': 4.2132806140594825}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 6.891202758113304, 'Velocity': 8.771999869668711, 'Pressure': 3.8334177478633014, 'pH': 6.628229282403386, 'Temperature': 29.84658799150022, 'Turbidity': 0.8041897171511764, 'Pollution level': 4.39920126988147}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 6.957309643598074, 'Velocity': 9.463166286241815, 'Pressure': 3.966642901513644, 'pH': 6.422053546267823, 'Temperature': 28.932607080314963, 'Turbidity': 0.8010037573095469, 'Pollution level': 4.365576238758696}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 7.030218321735654, 'Velocity': 9.90878681622588, 'Pressure': 3.9043184224879597, 'pH': 6.04095771319388, 'Temperature': 28.514423669413368, 'Turbidity': 0.8192667187900328, 'Pollution level': 4.1005023011047435}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 7.103661553112952, 'Velocity': 10.025163450015127, 'Pressure': 3.544389088645645, 'pH': 5.718073246388762, 'Temperature': 27.61825625067711, 'Turbidity': 0.8481859646272757, 'Pollution level': 3.7514937529006622}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 7.166094774388862, 'Velocity': 9.998058560485704, 'Pressure': 3.682153102111971, 'pH': 6.085690170867233, 'Temperature': 25.34774703665684, 'Turbidity': 0.9122981329500222, 'Pollution level': 3.691816867596796}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 7.238270184156074, 'Velocity': 9.990607622326944, 'Pressure': 3.579769314870566, 'pH': 6.051282349746195, 'Temperature': 25.092788147612975, 'Turbidity': 0.9370895211044662, 'Pollution level': 3.546700960040197}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 7.305609158537189, 'Velocity': 10.250763048190388, 'Pressure': 3.2818435803128105, 'pH': 5.808577794544319, 'Temperature': 26.11429691869081, 'Turbidity': 0.8562009901743448, 'Pollution level': 3.196679445489081}}
-{'SensorId': 8, 'HomeId': 8, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 7.369708647562358, 'Velocity': 9.92175824876954, 'Pressure': 3.0495431506896002, 'pH': 6.168038824841635, 'Temperature': 27.712387758398535, 'Turbidity': 0.8750038180034355, 'Pollution level': 3.008086136667073}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 70.71963806718439, 'Velocity': 8.206484598348231, 'Pressure': 9.913827144417475, 'pH': 7.288541360315815, 'Temperature': 38.6154620421351, 'Turbidity': 0.26589152596022536, 'Pollution level': 9.02583500589163}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 70.78742616614821, 'Velocity': 7.840902251402948, 'Pressure': 10.311034150143831, 'pH': 6.7556239552346895, 'Temperature': 38.23926548441358, 'Turbidity': 0.24208305983104622, 'Pollution level': 9.532858138888509}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 70.8534300365398, 'Velocity': 7.477218335617957, 'Pressure': 10.475374016264446, 'pH': 7.155683412483491, 'Temperature': 38.86596987260915, 'Turbidity': 0.26067778695331095, 'Pollution level': 9.070289018381635}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 70.92373451633475, 'Velocity': 8.18371859157193, 'Pressure': 10.101807797438209, 'pH': 7.796275783949984, 'Temperature': 40.42895029824932, 'Turbidity': 0.2765202169378798, 'Pollution level': 9.489007855044234}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 70.9940766955435, 'Velocity': 7.609975003456156, 'Pressure': 9.64312905680012, 'pH': 7.709783017221628, 'Temperature': 42.49766889341305, 'Turbidity': 0.26785130007703106, 'Pollution level': 9.113277140281149}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 71.06366890758615, 'Velocity': 8.095351622094846, 'Pressure': 10.252026090459683, 'pH': 7.636936668994207, 'Temperature': 41.91293855469512, 'Turbidity': 0.2525449269562423, 'Pollution level': 9.471144231057174}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 71.13277081727225, 'Velocity': 7.938873435188123, 'Pressure': 10.953643240623974, 'pH': 6.966133824475433, 'Temperature': 41.069783907543304, 'Turbidity': 0.25274689993018457, 'Pollution level': 8.714405005684105}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 71.20390770749205, 'Velocity': 7.229726320136935, 'Pressure': 10.160717327583528, 'pH': 6.747963179447767, 'Temperature': 37.43526560653054, 'Turbidity': 0.2652621267344844, 'Pollution level': 8.381861506162409}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 71.27110592806108, 'Velocity': 6.733788845564053, 'Pressure': 9.82596981521372, 'pH': 6.457642720068402, 'Temperature': 35.01219989926486, 'Turbidity': 0.27548473919886934, 'Pollution level': 7.628623399144314}}
-{'SensorId': 9, 'HomeId': 9, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 71.33729505380172, 'Velocity': 6.814319197735583, 'Pressure': 9.925980842106677, 'pH': 6.550633787902637, 'Temperature': 32.947606073061735, 'Turbidity': 0.2676032430103684, 'Pollution level': 8.22644034500256}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672387640.5492578, 'Payload': {'Volume': 21.195849057554966, 'Velocity': 6.1310697905313365, 'Pressure': 3.562746902665258, 'pH': 7.29910311332879, 'Temperature': 49.73892663123277, 'Turbidity': 0.15949483600100306, 'Pollution level': 0.9159595647283204}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672388240.5492578, 'Payload': {'Volume': 21.25824037097165, 'Velocity': 6.390009412237159, 'Pressure': 3.7876228316709475, 'pH': 7.439280034223738, 'Temperature': 53.932723408808855, 'Turbidity': 0.16229277173855816, 'Pollution level': 0.9197001397769808}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672388840.5492578, 'Payload': {'Volume': 21.32404900801065, 'Velocity': 6.512193047470288, 'Pressure': 3.83973987050916, 'pH': 7.851593536512219, 'Temperature': 48.698001564346846, 'Turbidity': 0.15751912571629106, 'Pollution level': 0.9918154875795993}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672389440.5492578, 'Payload': {'Volume': 21.39273690369649, 'Velocity': 7.085778743127995, 'Pressure': 4.02577150782711, 'pH': 8.371840598134574, 'Temperature': 52.77878500422196, 'Turbidity': 0.1468750475014502, 'Pollution level': 0.9160648876780866}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672390040.5492578, 'Payload': {'Volume': 21.45537167090367, 'Velocity': 6.555148508940294, 'Pressure': 4.168575149790486, 'pH': 8.648757728101785, 'Temperature': 51.3625297527083, 'Turbidity': 0.1338753282109008, 'Pollution level': 0.9216294454541518}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672390640.5492578, 'Payload': {'Volume': 21.52864115796321, 'Velocity': 7.116951889806194, 'Pressure': 3.8302436009620133, 'pH': 8.263469375681183, 'Temperature': 50.26857220886137, 'Turbidity': 0.1229368219798174, 'Pollution level': 0.8976898451488727}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672391240.5492578, 'Payload': {'Volume': 21.596795010886176, 'Velocity': 6.57598736483444, 'Pressure': 4.049865098537568, 'pH': 7.970814314872046, 'Temperature': 49.78925650637449, 'Turbidity': 0.12311905037298572, 'Pollution level': 0.9496620556559793}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672391840.5492578, 'Payload': {'Volume': 21.665975664363557, 'Velocity': 6.495050246586903, 'Pressure': 3.763367447055583, 'pH': 8.180471928016598, 'Temperature': 50.821869271039915, 'Turbidity': 0.11458798716936798, 'Pollution level': 0.9909231343111544}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672392440.5492578, 'Payload': {'Volume': 21.73378566689412, 'Velocity': 6.3291335201842704, 'Pressure': 3.607252092102825, 'pH': 8.262624539833206, 'Temperature': 51.07908359166252, 'Turbidity': 0.11746063448744604, 'Pollution level': 0.9399247695517894}}
-{'SensorId': 10, 'HomeId': 10, 'Timestamp': 1672393040.5492578, 'Payload': {'Volume': 21.795129065833194, 'Velocity': 6.239185470707678, 'Pressure': 3.4152691681182046, 'pH': 8.109013298071769, 'Temperature': 47.17917404628951, 'Turbidity': 0.11204252484100707, 'Pollution level': 0.8901246394545765}}
+[
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 68.45178998794529,
+            "Velocity": 1.9604288515048554,
+            "Pressure": 9.355003026844024,
+            "pH": 7.762272119244809,
+            "Temperature": 30.53153239118717,
+            "Turbidity": 0.029307813873020262,
+            "Pollution level": 14.300658873857559
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 68.5286469198461,
+            "Velocity": 2.1498372619932136,
+            "Pressure": 9.437341696582061,
+            "pH": 7.562917521643229,
+            "Temperature": 30.251856095984785,
+            "Turbidity": 0.026768795461154026,
+            "Pollution level": 13.872146950825273
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 68.60620774217567,
+            "Velocity": 2.0104560497530377,
+            "Pressure": 10.257243879745143,
+            "pH": 6.905095446631369,
+            "Temperature": 27.364266743034975,
+            "Turbidity": 0.02521568653932809,
+            "Pollution level": 14.52041478337594
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 68.68362025122205,
+            "Velocity": 1.8700117101944589,
+            "Pressure": 10.556473827714846,
+            "pH": 7.016758122290515,
+            "Temperature": 29.218278845497412,
+            "Turbidity": 0.026972100407753448,
+            "Pollution level": 15.604604509681423
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 68.76293324441379,
+            "Velocity": 1.9076845818415944,
+            "Pressure": 9.79854303571112,
+            "pH": 7.131441080366097,
+            "Temperature": 26.795450145146432,
+            "Turbidity": 0.027763970338307218,
+            "Pollution level": 17.16299564748097
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 68.83523843734297,
+            "Velocity": 1.9442604428962755,
+            "Pressure": 9.958729218619258,
+            "pH": 7.05224125289293,
+            "Temperature": 27.07914936718179,
+            "Turbidity": 0.02784439781980878,
+            "Pollution level": 18.47024269960007
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 68.91363187631573,
+            "Velocity": 1.8472767823845728,
+            "Pressure": 9.497977198897097,
+            "pH": 7.106049686432432,
+            "Temperature": 27.78035989745076,
+            "Turbidity": 0.025084787947679266,
+            "Pollution level": 20.18543596258595
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 68.98158021102383,
+            "Velocity": 1.8006405978382471,
+            "Pressure": 9.905952453768085,
+            "pH": 7.084814239936354,
+            "Temperature": 29.765271097558085,
+            "Turbidity": 0.02437554122737416,
+            "Pollution level": 20.739016409322385
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 69.05537125605164,
+            "Velocity": 1.9501557711847834,
+            "Pressure": 8.94908048408586,
+            "pH": 7.486830085423617,
+            "Temperature": 31.485754967649417,
+            "Turbidity": 0.025024315983537323,
+            "Pollution level": 22.695282628930578
+        }
+    },
+    {
+        "SensorId": 1,
+        "HomeId": 1,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 69.13505538669436,
+            "Velocity": 1.9709979868543421,
+            "Pressure": 8.933099261001242,
+            "pH": 7.011804777363303,
+            "Temperature": 34.306854063314574,
+            "Turbidity": 0.02417821248249586,
+            "Pollution level": 22.138212367860664
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 92.13492190045338,
+            "Velocity": 6.809150992468287,
+            "Pressure": 10.449036262499398,
+            "pH": 7.483891553888332,
+            "Temperature": 14.066509402303087,
+            "Turbidity": 0.410053797961887,
+            "Pollution level": 3.2060505544908207
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 92.20864555358938,
+            "Velocity": 7.094359357261167,
+            "Pressure": 10.273934562753363,
+            "pH": 6.865106583232364,
+            "Temperature": 13.11470096380268,
+            "Turbidity": 0.3714352151488503,
+            "Pollution level": 2.9688436188623637
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 92.27638418743987,
+            "Velocity": 7.762184005029492,
+            "Pressure": 10.627655780314296,
+            "pH": 7.290040827028953,
+            "Temperature": 11.805981132218529,
+            "Turbidity": 0.3954353649538332,
+            "Pollution level": 2.8559709676924716
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 92.34926055297191,
+            "Velocity": 8.033981895322551,
+            "Pressure": 10.717832537479532,
+            "pH": 7.230521698964726,
+            "Temperature": 11.58354601502733,
+            "Turbidity": 0.4210360370524784,
+            "Pollution level": 3.087102885018702
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 92.42453117995166,
+            "Velocity": 7.277831619186456,
+            "Pressure": 10.330951895153987,
+            "pH": 7.334129719132076,
+            "Temperature": 11.73146986634486,
+            "Turbidity": 0.40088524592579,
+            "Pollution level": 2.9989700807283683
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 92.49556024035823,
+            "Velocity": 7.480384307950848,
+            "Pressure": 10.976309450165761,
+            "pH": 6.623233398614772,
+            "Temperature": 10.589099169231758,
+            "Turbidity": 0.3912949390954203,
+            "Pollution level": 3.2963408469894104
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 92.57119933425685,
+            "Velocity": 6.787796058204815,
+            "Pressure": 10.760483866285373,
+            "pH": 6.753632924782137,
+            "Temperature": 11.568144853875431,
+            "Turbidity": 0.3645704690464865,
+            "Pollution level": 3.17000088245602
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 92.65089728088557,
+            "Velocity": 6.419893450497363,
+            "Pressure": 10.031319234610242,
+            "pH": 6.877841160028766,
+            "Temperature": 11.116579588478409,
+            "Turbidity": 0.3996736708321737,
+            "Pollution level": 3.4590671542070783
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 92.72084938840902,
+            "Velocity": 6.396588549051444,
+            "Pressure": 10.997594800370681,
+            "pH": 7.058474010013039,
+            "Temperature": 10.455789786762859,
+            "Turbidity": 0.3940157372559078,
+            "Pollution level": 3.7258530643324845
+        }
+    },
+    {
+        "SensorId": 2,
+        "HomeId": 2,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 92.79727537644656,
+            "Velocity": 5.817545400495316,
+            "Pressure": 12.066504396532757,
+            "pH": 7.72854884721116,
+            "Temperature": 11.364239433094616,
+            "Turbidity": 0.36535119365725954,
+            "Pollution level": 3.7045859126652405
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 5.447966047425796,
+            "Velocity": 9.239572204688628,
+            "Pressure": 9.449011027705739,
+            "pH": 7.252480245668449,
+            "Temperature": 40.81079246637426,
+            "Turbidity": 0.5936189485858181,
+            "Pollution level": 7.692951019798558
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 5.52244112189461,
+            "Velocity": 8.41734797414109,
+            "Pressure": 9.254590600542983,
+            "pH": 6.829840022808444,
+            "Temperature": 38.42649671366724,
+            "Turbidity": 0.645851107164685,
+            "Pollution level": 7.199907402317523
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 5.597063162469024,
+            "Velocity": 8.88793078491884,
+            "Pressure": 10.089469657229975,
+            "pH": 7.399690697478118,
+            "Temperature": 40.00869543484166,
+            "Turbidity": 0.6108918330831793,
+            "Pollution level": 7.7707486113848
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 5.666031520402991,
+            "Velocity": 8.996085626489327,
+            "Pressure": 9.84108599894161,
+            "pH": 6.787848867196198,
+            "Temperature": 39.84371746373425,
+            "Turbidity": 0.6131016609644194,
+            "Pollution level": 8.056404651227805
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 5.733495723131596,
+            "Velocity": 8.52298942619569,
+            "Pressure": 10.068391109267695,
+            "pH": 6.8424514699917545,
+            "Temperature": 38.886020739012764,
+            "Turbidity": 0.6521407140763039,
+            "Pollution level": 7.73125741769187
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 5.804988498796594,
+            "Velocity": 9.214791155488765,
+            "Pressure": 10.95977842580906,
+            "pH": 6.780836131865561,
+            "Temperature": 42.24836716962961,
+            "Turbidity": 0.6049019326545118,
+            "Pollution level": 7.380767331662975
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 5.877896193660996,
+            "Velocity": 8.939666687253077,
+            "Pressure": 10.361763518645688,
+            "pH": 7.345388372776585,
+            "Temperature": 43.505372612996624,
+            "Turbidity": 0.6094771827937816,
+            "Pollution level": 7.8378991040050545
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 5.956942189989311,
+            "Velocity": 9.609820141096499,
+            "Pressure": 9.511782552726096,
+            "pH": 6.85195939468045,
+            "Temperature": 39.86669966911309,
+            "Turbidity": 0.6041481581858177,
+            "Pollution level": 7.6855527239474455
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 6.031076014045535,
+            "Velocity": 8.801184454475454,
+            "Pressure": 8.972246297390315,
+            "pH": 6.811579162590442,
+            "Temperature": 39.23883281851008,
+            "Turbidity": 0.6614993085150497,
+            "Pollution level": 7.423316864312811
+        }
+    },
+    {
+        "SensorId": 3,
+        "HomeId": 3,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 6.098375030010493,
+            "Velocity": 8.034139639774153,
+            "Pressure": 8.771137392712314,
+            "pH": 7.046775781538519,
+            "Temperature": 42.87853709648626,
+            "Turbidity": 0.6700353109396971,
+            "Pollution level": 7.270526338838196
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 15.92968841432015,
+            "Velocity": 10.2970327082737,
+            "Pressure": 12.197847440865765,
+            "pH": 8.742114918537691,
+            "Temperature": 9.61932367752133,
+            "Turbidity": 0.38842625125334235,
+            "Pollution level": 7.989831957574539
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 16.005852248289187,
+            "Velocity": 9.46084738188908,
+            "Pressure": 11.074403785546847,
+            "pH": 8.449066283634,
+            "Temperature": 9.168212435053722,
+            "Turbidity": 0.3518137358266213,
+            "Pollution level": 7.226757426508142
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 16.078963372205262,
+            "Velocity": 10.15189512406737,
+            "Pressure": 11.325080158094512,
+            "pH": 9.061630167422315,
+            "Temperature": 9.962948488540887,
+            "Turbidity": 0.3348909149449554,
+            "Pollution level": 7.065329964388746
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 16.146464488077353,
+            "Velocity": 10.385752625898375,
+            "Pressure": 11.930915116606863,
+            "pH": 9.794963431324174,
+            "Temperature": 9.065738457456451,
+            "Turbidity": 0.3494581577949328,
+            "Pollution level": 6.9642425832761665
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 16.219213312159322,
+            "Velocity": 10.662756415270044,
+            "Pressure": 11.077117673971344,
+            "pH": 9.982265138906307,
+            "Temperature": 9.545978978490348,
+            "Turbidity": 0.3605354325005998,
+            "Pollution level": 7.192330263139423
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 16.29128679247355,
+            "Velocity": 10.56191410803725,
+            "Pressure": 11.329394168639618,
+            "pH": 9.867228002185383,
+            "Temperature": 8.647768197077054,
+            "Turbidity": 0.3805391098516073,
+            "Pollution level": 6.815719949589847
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 16.362560671181853,
+            "Velocity": 10.994335713903453,
+            "Pressure": 10.279123926603765,
+            "pH": 9.159509594714411,
+            "Temperature": 9.078672718681332,
+            "Turbidity": 0.4130001717437409,
+            "Pollution level": 6.617048149521014
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 16.439798973095265,
+            "Velocity": 11.396695200966256,
+            "Pressure": 10.742697293935299,
+            "pH": 8.588035060101422,
+            "Temperature": 8.909937589199167,
+            "Turbidity": 0.4496614016504463,
+            "Pollution level": 6.413699595965417
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 16.513414814940884,
+            "Velocity": 10.951181514911696,
+            "Pressure": 11.724060735926235,
+            "pH": 9.15251253136136,
+            "Temperature": 8.058130698000372,
+            "Turbidity": 0.4637046090252194,
+            "Pollution level": 7.051395869544391
+        }
+    },
+    {
+        "SensorId": 4,
+        "HomeId": 4,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 16.582115373965934,
+            "Velocity": 10.281028712979982,
+            "Pressure": 11.15134681897494,
+            "pH": 8.666752340148403,
+            "Temperature": 8.674272466895951,
+            "Turbidity": 0.4700597088898586,
+            "Pollution level": 6.870928989848417
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 55.45421927833974,
+            "Velocity": 1.3937819231274404,
+            "Pressure": 4.717542233187957,
+            "pH": 8.304858895885765,
+            "Temperature": 59.8709286696719,
+            "Turbidity": 0.7914870407315174,
+            "Pollution level": 9.039078709149548
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 55.52047119153882,
+            "Velocity": 1.524784054158666,
+            "Pressure": 5.138021671018575,
+            "pH": 7.683850596865872,
+            "Temperature": 59.840101546539316,
+            "Turbidity": 0.835247090320848,
+            "Pollution level": 8.889353649348182
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 55.593366549274684,
+            "Velocity": 1.5682818543354429,
+            "Pressure": 5.574275730007488,
+            "pH": 6.930418775385872,
+            "Temperature": 61.32128332354318,
+            "Turbidity": 0.8838058923551196,
+            "Pollution level": 8.355761261296301
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 55.66903665402343,
+            "Velocity": 1.5874776773083479,
+            "Pressure": 5.949848990049468,
+            "pH": 6.893604077328606,
+            "Temperature": 58.33214585423772,
+            "Turbidity": 0.8809479442958693,
+            "Pollution level": 8.573187501114091
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 55.736189982792375,
+            "Velocity": 1.5614234791484198,
+            "Pressure": 5.394399646924784,
+            "pH": 6.878388870690258,
+            "Temperature": 60.869213848246446,
+            "Turbidity": 0.9285003650532255,
+            "Pollution level": 7.737776404060991
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 55.80299411972848,
+            "Velocity": 1.599737603795391,
+            "Pressure": 5.148138142496768,
+            "pH": 6.464887242476234,
+            "Temperature": 59.75706247158537,
+            "Turbidity": 0.9153898274391655,
+            "Pollution level": 7.471106629121903
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 55.87559963806042,
+            "Velocity": 1.5385841879059885,
+            "Pressure": 4.678801216651883,
+            "pH": 5.914288459947485,
+            "Temperature": 60.51101685245906,
+            "Turbidity": 0.8430873016955345,
+            "Pollution level": 7.674520412815403
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 55.954905441570865,
+            "Velocity": 1.6075647377382962,
+            "Pressure": 4.769353605062181,
+            "pH": 5.963984072841777,
+            "Temperature": 55.00566334591735,
+            "Turbidity": 0.9258175885629097,
+            "Pollution level": 7.393343548254596
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 56.02648598761086,
+            "Velocity": 1.7219001929876807,
+            "Pressure": 4.333519577491185,
+            "pH": 5.782885113472971,
+            "Temperature": 51.10259748426512,
+            "Turbidity": 0.9292450838951525,
+            "Pollution level": 7.916329319207168
+        }
+    },
+    {
+        "SensorId": 5,
+        "HomeId": 5,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 56.10520245704598,
+            "Velocity": 1.8212334810215944,
+            "Pressure": 4.260113915542115,
+            "pH": 5.337688785636755,
+            "Temperature": 47.66788991946706,
+            "Turbidity": 1.0174127869537806,
+            "Pollution level": 7.762642159648741
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 88.03806064526616,
+            "Velocity": 6.08233191780403,
+            "Pressure": 8.591496403724278,
+            "pH": 8.162997907552267,
+            "Temperature": 25.318332663531724,
+            "Turbidity": 0.010544528090296223,
+            "Pollution level": 3.7292467869127646
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 88.11471610679216,
+            "Velocity": 5.480458184287725,
+            "Pressure": 9.312203601004143,
+            "pH": 8.079510852396343,
+            "Temperature": 24.72147362554786,
+            "Turbidity": 0.011538708548511014,
+            "Pollution level": 4.088112651841771
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 88.19196157310476,
+            "Velocity": 5.837138617726159,
+            "Pressure": 9.318395018014085,
+            "pH": 8.04710875665839,
+            "Temperature": 26.757428415380172,
+            "Turbidity": 0.011754010295359796,
+            "Pollution level": 3.871980678899522
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 88.25960469698661,
+            "Velocity": 6.236131223695588,
+            "Pressure": 8.415714280999492,
+            "pH": 8.366500123954463,
+            "Temperature": 25.03859267100617,
+            "Turbidity": 0.011037751567814152,
+            "Pollution level": 3.5214716332596905
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 88.33481038953911,
+            "Velocity": 6.092223319790522,
+            "Pressure": 8.542329140694305,
+            "pH": 7.8474271427589555,
+            "Temperature": 22.581665376625665,
+            "Turbidity": 0.011591658726753598,
+            "Pollution level": 3.496125422307271
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 88.409311744417,
+            "Velocity": 6.07006945330013,
+            "Pressure": 8.299404958567498,
+            "pH": 7.723279099983903,
+            "Temperature": 20.8554870003891,
+            "Turbidity": 0.011904892822238347,
+            "Pollution level": 3.2355995664898187
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 88.48940001353192,
+            "Velocity": 6.494068071352727,
+            "Pressure": 7.608329012557361,
+            "pH": 8.182899690243467,
+            "Temperature": 21.335182765378978,
+            "Turbidity": 0.012327956781964008,
+            "Pollution level": 3.4793504266826445
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 88.56055917657186,
+            "Velocity": 6.921448745382526,
+            "Pressure": 8.114724200964428,
+            "pH": 8.475215886092252,
+            "Temperature": 19.224010975894103,
+            "Turbidity": 0.012531197849532503,
+            "Pollution level": 3.2548377975590674
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 88.64009599883852,
+            "Velocity": 6.958887181273318,
+            "Pressure": 7.9445638354096975,
+            "pH": 8.841100730939269,
+            "Temperature": 18.462294700732485,
+            "Turbidity": 0.01177907185555378,
+            "Pollution level": 3.575408114622347
+        }
+    },
+    {
+        "SensorId": 6,
+        "HomeId": 6,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 88.71369717960204,
+            "Velocity": 6.8414673132972394,
+            "Pressure": 8.191086799186184,
+            "pH": 8.264806966344072,
+            "Temperature": 18.66137560164365,
+            "Turbidity": 0.010838822336759708,
+            "Pollution level": 3.598944047351995
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 38.714379563633415,
+            "Velocity": 4.869474621272186,
+            "Pressure": 9.875152877621659,
+            "pH": 7.483825948429842,
+            "Temperature": 8.960540164389908,
+            "Turbidity": 0.3717657237432668,
+            "Pollution level": 7.176324463629205
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 38.78995914598757,
+            "Velocity": 5.354590133581218,
+            "Pressure": 9.058268684756003,
+            "pH": 8.0079805441578,
+            "Temperature": 8.859421225324583,
+            "Turbidity": 0.3822897142256992,
+            "Pollution level": 6.627443090650244
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 38.85784458837219,
+            "Velocity": 5.860451821659824,
+            "Pressure": 8.356972597159636,
+            "pH": 8.526029499137097,
+            "Temperature": 8.91845155412982,
+            "Turbidity": 0.3564337569342989,
+            "Pollution level": 6.132594703704966
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 38.93151858186401,
+            "Velocity": 5.934945641720559,
+            "Pressure": 7.815264156703533,
+            "pH": 8.441883274550598,
+            "Temperature": 9.69811453627158,
+            "Turbidity": 0.3826055962815932,
+            "Pollution level": 6.34461295307253
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 38.99908938547721,
+            "Velocity": 6.286337883288008,
+            "Pressure": 7.35572727960419,
+            "pH": 7.987727741589813,
+            "Temperature": 10.023810974655094,
+            "Turbidity": 0.3581671130226625,
+            "Pollution level": 6.642089680414665
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 39.07059363459669,
+            "Velocity": 6.675395464784677,
+            "Pressure": 7.854767335111952,
+            "pH": 8.596291791183548,
+            "Temperature": 9.091281641229607,
+            "Turbidity": 0.3629813439607768,
+            "Pollution level": 6.205708775995567
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 39.14104042806247,
+            "Velocity": 6.994657963657021,
+            "Pressure": 8.354680220064216,
+            "pH": 8.964769851397334,
+            "Temperature": 9.899663963188612,
+            "Turbidity": 0.3424149346962079,
+            "Pollution level": 6.380310630564358
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 39.21755977282124,
+            "Velocity": 7.405083186858689,
+            "Pressure": 8.264913261142368,
+            "pH": 8.125308097534887,
+            "Temperature": 10.677249623345434,
+            "Turbidity": 0.3310067644753196,
+            "Pollution level": 6.773904072359634
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 39.295032594163246,
+            "Velocity": 7.656635351403028,
+            "Pressure": 8.629817034045818,
+            "pH": 8.0821766187022,
+            "Temperature": 11.36799117902544,
+            "Turbidity": 0.36009769391639923,
+            "Pollution level": 6.200432175563843
+        }
+    },
+    {
+        "SensorId": 7,
+        "HomeId": 7,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 39.36586159176294,
+            "Velocity": 8.316752225903405,
+            "Pressure": 9.060478397526747,
+            "pH": 8.444837248021047,
+            "Temperature": 11.035215728178557,
+            "Turbidity": 0.3727439759560314,
+            "Pollution level": 6.535467877629563
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 96.28449327034,
+            "Velocity": 8.398081155155735,
+            "Pressure": 8.527884690833446,
+            "pH": 7.782683409251013,
+            "Temperature": 50.08258547833486,
+            "Turbidity": 0.5492391566694048,
+            "Pollution level": 11.394670260436468
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 96.3564446371209,
+            "Velocity": 8.0779824632534,
+            "Pressure": 9.361415652458653,
+            "pH": 8.29119978912843,
+            "Temperature": 52.71947040498849,
+            "Turbidity": 0.5138343572277687,
+            "Pollution level": 10.288911056860718
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 96.42489788397813,
+            "Velocity": 8.029611765068156,
+            "Pressure": 8.666497322930473,
+            "pH": 8.423517055623911,
+            "Temperature": 47.905753231184995,
+            "Turbidity": 0.4896255094513807,
+            "Pollution level": 10.03946277434234
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 96.49745736827,
+            "Velocity": 8.392348189970953,
+            "Pressure": 8.832363428153759,
+            "pH": 7.8096228075591485,
+            "Temperature": 51.861415479845434,
+            "Turbidity": 0.478802772389029,
+            "Pollution level": 10.85899979669319
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 96.57757475909716,
+            "Velocity": 8.098603705468676,
+            "Pressure": 7.952324874678332,
+            "pH": 7.871053969571951,
+            "Temperature": 53.76913797139099,
+            "Turbidity": 0.4398004647758046,
+            "Pollution level": 10.220894493306321
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 96.65769228977051,
+            "Velocity": 8.763344612234995,
+            "Pressure": 7.481330532037243,
+            "pH": 7.625871296992709,
+            "Temperature": 53.314102374398026,
+            "Turbidity": 0.44645476711745286,
+            "Pollution level": 10.187369840494325
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 96.73403341832656,
+            "Velocity": 9.067662058605125,
+            "Pressure": 7.869737843931617,
+            "pH": 7.911515009440556,
+            "Temperature": 56.02122664648728,
+            "Turbidity": 0.45084486994953693,
+            "Pollution level": 10.00244902355182
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 96.81249969602037,
+            "Velocity": 8.857409357533749,
+            "Pressure": 7.785521714627052,
+            "pH": 7.140527587054612,
+            "Temperature": 61.18254121980126,
+            "Turbidity": 0.4801153667974599,
+            "Pollution level": 10.459879080621759
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 96.88874330902067,
+            "Velocity": 8.814140998225323,
+            "Pressure": 7.763397384383033,
+            "pH": 7.174908420935305,
+            "Temperature": 64.73198390660892,
+            "Turbidity": 0.49561054726152354,
+            "Pollution level": 10.913688384070003
+        }
+    },
+    {
+        "SensorId": 8,
+        "HomeId": 8,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 96.95455818743092,
+            "Velocity": 8.900851706041754,
+            "Pressure": 7.595546159214039,
+            "pH": 7.829077789075226,
+            "Temperature": 65.32333076046953,
+            "Turbidity": 0.5229396957049604,
+            "Pollution level": 10.797748038651937
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 67.22663349130198,
+            "Velocity": 1.2001652058747239,
+            "Pressure": 7.347675705993595,
+            "pH": 7.211854746128174,
+            "Temperature": 18.550677353451547,
+            "Turbidity": 0.8981260454874902,
+            "Pollution level": 15.315710500596074
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 67.29688997336807,
+            "Velocity": 1.1050476785721755,
+            "Pressure": 7.098224830374777,
+            "pH": 7.014637787559821,
+            "Temperature": 19.35498045210991,
+            "Turbidity": 0.8174772222755529,
+            "Pollution level": 16.561997426417246
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 67.37331164360411,
+            "Velocity": 0.9985234504379014,
+            "Pressure": 6.465134920063623,
+            "pH": 6.525555442562505,
+            "Temperature": 19.94878514850619,
+            "Turbidity": 0.7876390611737466,
+            "Pollution level": 16.22720484862954
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 67.43944221300681,
+            "Velocity": 0.934471139854775,
+            "Pressure": 6.860842063497796,
+            "pH": 6.0792753384454175,
+            "Temperature": 21.67948838999596,
+            "Turbidity": 0.7684681484780236,
+            "Pollution level": 16.110082703477293
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 67.50717982477858,
+            "Velocity": 1.008431713093724,
+            "Pressure": 6.9644006457326455,
+            "pH": 5.864647076495367,
+            "Temperature": 20.134936371559395,
+            "Turbidity": 0.8271123102025967,
+            "Pollution level": 15.434159221209958
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 67.57641713778031,
+            "Velocity": 0.9313370048613552,
+            "Pressure": 6.593024982549391,
+            "pH": 5.906373759314106,
+            "Temperature": 18.380064661865806,
+            "Turbidity": 0.8958733459919015,
+            "Pollution level": 16.293495605205095
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 67.64911407797568,
+            "Velocity": 0.8727606389890061,
+            "Pressure": 6.607990106631855,
+            "pH": 6.269552397946899,
+            "Temperature": 18.417547673555497,
+            "Turbidity": 0.8604520210676975,
+            "Pollution level": 17.43346055038745
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 67.72385595070143,
+            "Velocity": 0.864219462194887,
+            "Pressure": 6.7644403937826,
+            "pH": 6.715250104154377,
+            "Temperature": 19.620657130183087,
+            "Turbidity": 0.9002813176762421,
+            "Pollution level": 18.278073220851567
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 67.8003184575057,
+            "Velocity": 0.9391330194939966,
+            "Pressure": 7.414538332515843,
+            "pH": 6.319922632267351,
+            "Temperature": 18.91743329111041,
+            "Turbidity": 0.9395574918484523,
+            "Pollution level": 16.839754020531036
+        }
+    },
+    {
+        "SensorId": 9,
+        "HomeId": 9,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 67.87630460827017,
+            "Velocity": 0.9137344492933269,
+            "Pressure": 7.124491522730833,
+            "pH": 6.26315173500677,
+            "Temperature": 17.377370873439325,
+            "Turbidity": 0.9177271980072869,
+            "Pollution level": 17.55675740893251
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640970600.0,
+        "Payload": {
+            "Volume": 66.13643592700979,
+            "Velocity": 8.152533824029616,
+            "Pressure": 1.792506413071057,
+            "pH": 8.277399513782854,
+            "Temperature": 15.649446160307821,
+            "Turbidity": 0.615323454835486,
+            "Pollution level": 3.5734237206349464
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640971200.0,
+        "Payload": {
+            "Volume": 66.20899673522153,
+            "Velocity": 8.32048331402795,
+            "Pressure": 1.700392946308969,
+            "pH": 7.55407213016881,
+            "Temperature": 16.40480544052211,
+            "Turbidity": 0.5895058181618198,
+            "Pollution level": 3.3069076198905676
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640971800.0,
+        "Payload": {
+            "Volume": 66.28669121544576,
+            "Velocity": 7.7048202807901065,
+            "Pressure": 1.836339784027837,
+            "pH": 7.021958800923471,
+            "Temperature": 14.76696356441623,
+            "Turbidity": 0.5553417250038808,
+            "Pollution level": 3.2382471966227095
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640972400.0,
+        "Payload": {
+            "Volume": 66.35486742540786,
+            "Velocity": 7.177699755806545,
+            "Pressure": 1.8675480169784595,
+            "pH": 7.309425402846252,
+            "Temperature": 15.011549494654718,
+            "Turbidity": 0.5625985262471895,
+            "Pollution level": 3.4210739463669793
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640973000.0,
+        "Payload": {
+            "Volume": 66.42565210692221,
+            "Velocity": 6.552454415023281,
+            "Pressure": 1.801255894415524,
+            "pH": 7.149498783580848,
+            "Temperature": 16.402079062889754,
+            "Turbidity": 0.5551942673917281,
+            "Pollution level": 3.7111201419933435
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640973600.0,
+        "Payload": {
+            "Volume": 66.50062927603264,
+            "Velocity": 6.990067892379562,
+            "Pressure": 1.831118097267769,
+            "pH": 7.533210568279457,
+            "Temperature": 17.095940561276713,
+            "Turbidity": 0.5772394731795526,
+            "Pollution level": 3.398663913267534
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640974200.0,
+        "Payload": {
+            "Volume": 66.57748221528674,
+            "Velocity": 7.457017217070738,
+            "Pressure": 1.8463106782841583,
+            "pH": 8.027809300416653,
+            "Temperature": 15.846028096995227,
+            "Turbidity": 0.6306248610038567,
+            "Pollution level": 3.341747450765167
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640974800.0,
+        "Payload": {
+            "Volume": 66.6496632438234,
+            "Velocity": 7.433891969740817,
+            "Pressure": 1.755913168094649,
+            "pH": 8.479892962001676,
+            "Temperature": 17.362889279575874,
+            "Turbidity": 0.5815359875607208,
+            "Pollution level": 3.5902910196598468
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640975400.0,
+        "Payload": {
+            "Volume": 66.72895029689664,
+            "Velocity": 7.529151338266258,
+            "Pressure": 1.823082619721547,
+            "pH": 8.383538792838534,
+            "Temperature": 18.23489368635091,
+            "Turbidity": 0.5890980387867197,
+            "Pollution level": 3.8162364252157155
+        }
+    },
+    {
+        "SensorId": 10,
+        "HomeId": 10,
+        "Timestamp": 1640976000.0,
+        "Payload": {
+            "Volume": 66.8045112343875,
+            "Velocity": 8.26368479312927,
+            "Pressure": 1.7663537573424362,
+            "pH": 8.233145986204274,
+            "Temperature": 18.8362554501405,
+            "Turbidity": 0.62087327556886,
+            "Pollution level": 4.192906645595716
+        }
+    }
+]

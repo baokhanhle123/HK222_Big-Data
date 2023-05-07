@@ -38,6 +38,7 @@ The trend of the data for a single household can vary depending on several facto
 
 import random
 import datetime
+import json
 
 # Generate a dataset of N records
 records = 100
@@ -50,7 +51,8 @@ dataset = []
 
 sensor_id = 0
 home_id = 0
-time_origin = random.uniform(datetime.datetime(2020, 1, 1).timestamp(), datetime.datetime(2023, 1, 1).timestamp())
+# time_origin = random.uniform(datetime.datetime(2020, 1, 1).timestamp(), datetime.datetime(2023, 1, 1).timestamp())
+time_origin = datetime.datetime(2022, 1, 1).timestamp()
 
 # Generate data for each household
 for i in range(households):
@@ -100,13 +102,14 @@ for i in range(households):
                 "Pollution level": pollution_level
             }
         }
-        # Write the record to a json file
-        with open("dataset.json", "a") as f:
-            f.write(str(record) + "\n")
+        
+        dataset.append(record)    
 
-        # Add the dictionary to the dataset
-        # dataset.append(record)    
+print(dataset)
 
-# print(dataset)
+# Write the dataset to a JSON file
+with open('dataset.json', 'w') as f:
+    json.dump(dataset, f, indent=4)
+    
 
 
