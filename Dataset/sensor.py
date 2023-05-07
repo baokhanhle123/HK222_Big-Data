@@ -44,15 +44,13 @@ for j in range(records):
         "SensorId": sensor_id,
         "HomeId": home_id,
         "Timestamp": timestamp,
-        "Payload": {
-            "Volume": volume,
-            "Velocity": velocity,
-            "Pressure": pressure,
-            "pH": pH,
-            "Temperature": temperature,
-            "Turbidity": turbidity,
-            "Pollution level": pollution_level
-        }
+        "Volume": volume,
+        "Velocity": velocity,
+        "Pressure": pressure,
+        "pH": pH,
+        "Temperature": temperature,
+        "Turbidity": turbidity,
+        "Pollution level": pollution_level
     }
     print(record)
     time.sleep(time_interval)

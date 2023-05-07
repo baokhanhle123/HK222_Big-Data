@@ -41,8 +41,8 @@ import datetime
 import json
 
 # Generate a dataset of N records
-records = 10000000
-households = 100
+records = 1000
+households = 10
 records_per_household = int(records / households)
 
 delta_volume_constant = random.uniform(0.05, 0.1)
@@ -92,15 +92,13 @@ for i in range(households):
             "SensorId": sensor_id,
             "HomeId": home_id,
             "Timestamp": timestamp,
-            "Payload": {
-                "Volume": volume,
-                "Velocity": velocity,
-                "Pressure": pressure,
-                "pH": pH,
-                "Temperature": temperature,
-                "Turbidity": turbidity,
-                "Pollution level": pollution_level
-            }
+            "Volume": volume,
+            "Velocity": velocity,
+            "Pressure": pressure,
+            "pH": pH,
+            "Temperature": temperature,
+            "Turbidity": turbidity,
+            "Pollution level": pollution_level
         }
         
         dataset.append(record)    
