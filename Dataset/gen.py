@@ -41,18 +41,18 @@ import datetime
 import json
 
 # Generate a dataset of N records
-records = 100
-households = 10
+records = 10000000
+households = 100
 records_per_household = int(records / households)
 
 delta_volume_constant = random.uniform(0.05, 0.1)
 
 dataset = []
 
-sensor_id = 0
-home_id = 0
+sensor_id = 100
+home_id = 100
 # time_origin = random.uniform(datetime.datetime(2020, 1, 1).timestamp(), datetime.datetime(2023, 1, 1).timestamp())
-time_origin = datetime.datetime(2022, 1, 1).timestamp()
+time_origin = datetime.datetime(2020, 1, 1).timestamp()
 
 # Generate data for each household
 for i in range(households):
@@ -105,7 +105,7 @@ for i in range(households):
         
         dataset.append(record)    
 
-print(dataset)
+# print(dataset)
 
 # Write the dataset to a JSON file
 with open('dataset.json', 'w') as f:
