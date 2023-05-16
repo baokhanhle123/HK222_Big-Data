@@ -10,7 +10,7 @@ from kafka import KafkaProducer # pip install kafka-python
 
 # Read JSON data from file and write it to a list
 dataset = []
-with open('dataset.json', 'r') as f:
+with open('dataset1month.json', 'r') as f:
     dataset= json.load(f)
 
 logger = logging.getLogger("kafka")
