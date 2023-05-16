@@ -41,15 +41,16 @@ import datetime
 import json
 
 # Generate a dataset of 1 month records
-records_per_household = 4320 # 1 month
+records_per_household = 4320 * 24 # 1 month * 24 = 2 years
 households = 10
 
 delta_volume_constant = random.uniform(0.05, 0.1)
 
 dataset = []
+dataset1month = []
 
-sensor_id = 100
-home_id = 100
+sensor_id = 0
+home_id = 0
 # time_origin = random.uniform(datetime.datetime(2020, 1, 1).timestamp(), datetime.datetime(2023, 1, 1).timestamp())
 time_origin = datetime.datetime(2020, 1, 1).timestamp()
 
@@ -99,7 +100,6 @@ for i in range(households):
             "Turbidity": turbidity,
             "Pollution level": pollution_level
         }
-        
         dataset.append(record)    
 
 # print(dataset)
@@ -107,6 +107,15 @@ for i in range(households):
 # Write the dataset to a JSON file
 with open('dataset.json', 'w') as f:
     json.dump(dataset, f, indent=4)
+
+# Create in 1 month interval
+for i in range(len(dataset)):
+    if (i % 4320 == 0):
+        dataset1month.append(dataset[i])
+        
+with open('dataset1month.json', 'w') as f:
+    json.dump(dataset1month, f, indent=4)
+
     
 
 
