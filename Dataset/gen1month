@@ -40,10 +40,9 @@ import random
 import datetime
 import json
 
-# Generate a dataset of N records
-records = 10000000
-households = 100
-records_per_household = int(records / households)
+# Generate a dataset of 1 month records
+records_per_household = 4320 # 1 month
+households = 10
 
 delta_volume_constant = random.uniform(0.05, 0.1)
 
