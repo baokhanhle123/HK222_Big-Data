@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.23.0209.1653                               -->
+<workbook original-version='18.1' source-build='2022.4.1 (20224.23.0209.1653)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='dataset_converted' inline='true' name='federated.1l9og92079xvr01e1nhl317hj0ua' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataset1month_converted' name='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0'>
+            <connection class='semistructpassivestore-direct' directory='E:/github/HK222_Big-Data/Dataset' filename='dataset1month_converted.json' password='' server=''>
+              <semistruct-schemas>
+                <semistruct-schema table='[dataset1month_converted.json+]'>
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+                <semistruct-schema table='[dataset1month_converted.json]'>
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+                <semistruct-schema table='[dataset_converted.json]'>
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+              </semistruct-schemas>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation all='true' name='dataset1month_converted.json+' type='union'>
+          <columns>
+            <column datatype='string' name='Table Name' />
+            <column datatype='integer' name='Document Index (generated)' />
+            <column datatype='real' name='HomeId' />
+            <column datatype='real' name='Pollution level' />
+            <column datatype='real' name='Pressure' />
+            <column datatype='real' name='SensorId' />
+            <column datatype='real' name='Temperature' />
+            <column datatype='string' name='Timestamp' />
+            <column datatype='real' name='Turbidity' />
+            <column datatype='real' name='Velocity' />
+            <column datatype='real' name='Volume' />
+            <column datatype='real' name='pH' />
+          </columns>
+          <relation connection='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0' name='dataset1month_converted.json' table='[dataset1month_converted.json]' type='table' />
+          <relation connection='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0' name='dataset_converted.json' table='[dataset_converted.json]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation all='true' name='dataset1month_converted.json+' type='union'>
+          <columns>
+            <column datatype='string' name='Table Name' />
+            <column datatype='integer' name='Document Index (generated)' />
+            <column datatype='real' name='HomeId' />
+            <column datatype='real' name='Pollution level' />
+            <column datatype='real' name='Pressure' />
+            <column datatype='real' name='SensorId' />
+            <column datatype='real' name='Temperature' />
+            <column datatype='string' name='Timestamp' />
+            <column datatype='real' name='Turbidity' />
+            <column datatype='real' name='Velocity' />
+            <column datatype='real' name='Volume' />
+            <column datatype='real' name='pH' />
+          </columns>
+          <relation connection='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0' name='dataset1month_converted.json' table='[dataset1month_converted.json]' type='table' />
+          <relation connection='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0' name='dataset_converted.json' table='[dataset_converted.json]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Table Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Table Name]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Table Name</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Document Index (generated)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Document Index (generated)]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Document Index (generated)</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HomeId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HomeId]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>HomeId</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pollution level</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pollution level]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Pollution level</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressure]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Pressure</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SensorId</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SensorId]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>SensorId</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Turbidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Turbidity]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Turbidity</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Velocity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Velocity]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Velocity</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Volume]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>Volume</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pH]</local-name>
+            <parent-name>[dataset1month_converted.json+]</parent-name>
+            <remote-alias>pH</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Document Index (generated)]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>Document Index (generated)</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column aggregation='Sum' caption='Home Id' datatype='real' name='[HomeId]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>HomeId</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Pollution level]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Pollution level</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Pressure]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Pressure</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column aggregation='Sum' caption='Sensor Id' datatype='real' name='[SensorId]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>SensorId</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Table Name]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Table Name</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' datatype-customized='true' name='[Temperature]' role='dimension' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Temperature</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='datetime' datatype-customized='true' name='[Timestamp]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>Timestamp</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Turbidity]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Turbidity</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Velocity]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Velocity</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Volume]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Volume</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='dataset1month_converted.json' datatype='table' name='[__tableau_internal_object_id__].[dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7]' role='measure' type='quantitative' />
+      <column caption='P H' datatype='real' name='[pH]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>pH</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='Dataset1Month Converted' role='dimensions'>
+        <folder-item name='[Document Index (generated)]' type='field' />
+        <folder-item name='[HomeId]' type='field' />
+        <folder-item name='[SensorId]' type='field' />
+        <folder-item name='[Table Name]' type='field' />
+        <folder-item name='[Timestamp]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='Dataset1Month Converted'>
+          <folder-item name='[Document Index (generated)]' type='field' />
+          <folder-item name='[HomeId]' type='field' />
+          <folder-item name='[SensorId]' type='field' />
+          <folder-item name='[Table Name]' type='field' />
+          <folder-item name='[Timestamp]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='dataset1month_converted.json' id='dataset1month_converted.json_5BCB607DA0484F578BADC1CB56A63DC7'>
+            <properties context=''>
+              <relation all='true' name='dataset1month_converted.json+' type='union'>
+                <columns>
+                  <column datatype='string' name='Table Name' />
+                  <column datatype='integer' name='Document Index (generated)' />
+                  <column datatype='real' name='HomeId' />
+                  <column datatype='real' name='Pollution level' />
+                  <column datatype='real' name='Pressure' />
+                  <column datatype='real' name='SensorId' />
+                  <column datatype='real' name='Temperature' />
+                  <column datatype='string' name='Timestamp' />
+                  <column datatype='real' name='Turbidity' />
+                  <column datatype='real' name='Velocity' />
+                  <column datatype='real' name='Volume' />
+                  <column datatype='real' name='pH' />
+                </columns>
+                <relation connection='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0' name='dataset1month_converted.json' table='[dataset1month_converted.json]' type='table' />
+                <relation connection='semistructpassivestore-direct.08zbyvc00f88hc11g9hwm1icbwb0' name='dataset_converted.json' table='[dataset_converted.json]' type='table' />
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataset_converted' name='federated.1l9og92079xvr01e1nhl317hj0ua' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1l9og92079xvr01e1nhl317hj0ua'>
+            <column aggregation='Sum' caption='Sensor Id' datatype='real' name='[SensorId]' role='dimension' type='ordinal'>
+              <desc>
+                <formatted-text>
+                  <run>SensorId</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='datetime' datatype-customized='true' name='[Timestamp]' role='dimension' type='ordinal'>
+              <desc>
+                <formatted-text>
+                  <run>Timestamp</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Velocity]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Velocity</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Volume]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Volume</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[Timestamp]' derivation='Month' name='[mn:Timestamp:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[SensorId]' derivation='None' name='[none:SensorId:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Velocity]' derivation='Sum' name='[sum:Velocity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Volume]' derivation='Sum' name='[sum:Volume:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1l9og92079xvr01e1nhl317hj0ua].[sum:Volume:qk]' field-type='quantitative' max='6603.2551616230139' min='-11997.510986559317' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l9og92079xvr01e1nhl317hj0ua].[none:SensorId:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1l9og92079xvr01e1nhl317hj0ua].[sum:Volume:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l9og92079xvr01e1nhl317hj0ua].[none:SensorId:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='13' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1l9og92079xvr01e1nhl317hj0ua].[sum:Velocity:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1l9og92079xvr01e1nhl317hj0ua].[none:SensorId:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='1240' />
+                <format attr='maxwidth' value='1240' />
+                <format attr='minheight' value='300' />
+                <format attr='maxheight' value='300' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1l9og92079xvr01e1nhl317hj0ua].[sum:Volume:qk] + [federated.1l9og92079xvr01e1nhl317hj0ua].[sum:Velocity:qk])</rows>
+        <cols>[federated.1l9og92079xvr01e1nhl317hj0ua].[mn:Timestamp:ok]</cols>
+      </table>
+      <simple-id uuid='{A29BDB44-D50B-4FF5-9AC5-A2E8B2590BFE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='12' param='[federated.1l9og92079xvr01e1nhl317hj0ua].[none:SensorId:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1l9og92079xvr01e1nhl317hj0ua].[none:AdhocCluster:1:ok]</field>
+            <field>[federated.1l9og92079xvr01e1nhl317hj0ua].[none:HomeId:ok]</field>
+            <field>[federated.1l9og92079xvr01e1nhl317hj0ua].[none:SensorId:ok]</field>
+            <field>[federated.1l9og92079xvr01e1nhl317hj0ua].[none:Timestamp:nk]</field>
+            <field>[federated.1l9og92079xvr01e1nhl317hj0ua].[tyr:Temperature:qk]</field>
+            <field>[federated.1l9og92079xvr01e1nhl317hj0ua].[yr:Timestamp:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5755CD60-8169-40BB-9EF6-6683D302867D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
